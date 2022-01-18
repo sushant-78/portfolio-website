@@ -1,0 +1,125 @@
+.about-container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    padding: 3.5rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-text-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-heading {
+    margin-bottom: 3rem;
+    color: #fff;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+}
+
+.about-heading-break {
+    display: none;
+}
+
+.about-description {
+    margin-bottom: 2rem;
+    line-height: 1.625;
+}
+
+.about-btn-container {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.about-work-btn {
+    display: inline-flex;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    background-color: #10b981;
+    color: #ffffff;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    display: inline-flex;
+    border-radius: 0.25rem;
+    border-width: 0;
+    cursor: pointer;
+}
+
+.about-project-btn {
+    display: inline-flex;
+    margin-left: 1rem;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    background-color: #1f2937;
+    color: #9ca3af;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    display: inline-flex;
+    border-radius: 0.25rem;
+    border-width: 0;
+    cursor: pointer;
+}
+
+.about-img-container {
+    margin-bottom: 2rem;
+}
+
+.about-img {
+    width: 200px;
+    margin: 0 auto;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 0.25rem;
+}
+
+.about-scroll-down-icon {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+}
+
+/*media queries*/
+
+@media (min-width: 400px) {
+    .about-heading {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 500px) {
+    .about-container {
+        padding: 5.5rem 0;
+    }
+}
+
+@media (min-width: 640px) {
+    .about-heading {
+        line-height: 2.75rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .about-text-container {
+        width: 50%;
+    }
+
+    .about-img-container {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .about-container {
+        padding: 7.5rem 0;
+    }
+
+    .about-heading-break {
+        display: inline-block;
+    }
+}

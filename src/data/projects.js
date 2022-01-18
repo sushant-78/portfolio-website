@@ -1,0 +1,76 @@
+const projects = [
+    {
+        id: 1,
+        title: "E-COMMERCE APP",
+        about: "A e-commerce app where you can buy shirts, t-shirts and jeans. Made with react.js, redux, react-router, styled-components, express.js and mongoDB. This project was bootstrapped with Create React App.",
+        tags: [
+            "react.js",
+            "react-router",
+            "redux",
+            "styled-components",
+            "express.js",
+            "mongoDB",
+            "e-commerce",
+        ],
+        demo: "https://e-commerce-app-sushant.herokuapp.com/",
+        github: "https://github.com/sushant-78/e-commerce-app",
+        image: "https://portfolio-projects-repo-gifs-bucket.s3.ap-south-1.amazonaws.com/portfolio+repo+gifs/e-commerce-app.gif",
+    },
+
+    {
+        id: 2,
+        title: "COVID-19 TRACKER",
+        about: "An application which tracks nationwise covid-19 data, made with react.js and https://covid19api.com/ api. This project was bootstrapped with Create React App.",
+        tags: ["react.js", "redux", "css-modules"],
+        demo: "https://covid-19-tracker-react-sushant.netlify.app/",
+        github: "https://github.com/sushant-78/covid-19-tracker",
+        image: "https://portfolio-projects-repo-gifs-bucket.s3.ap-south-1.amazonaws.com/portfolio+repo+gifs/covid-19-tracker.gif",
+    },
+    {
+        id: 3,
+        title: "EXPENSIFY-APP",
+        about: "A expense tracker app where you can add, view, edit and delete your expenses. Made with react.js, redux, react-router and scss. This project was bootstrapped with Create React App.",
+        tags: ["react.js", "react-router", "redux", "scss", "productivity"],
+        demo: "https://expensify-app-react-sushant.netlify.app/",
+        github: "https://github.com/sushant-78/expensify-app",
+        image: "https://portfolio-projects-repo-gifs-bucket.s3.ap-south-1.amazonaws.com/portfolio+repo+gifs/expensify-app.gif",
+    },
+    {
+        id: 4,
+        title: "WEATHER APP",
+        about: "A weather app where you need to plug in a location to get the current weather. Made with node.js, express.js and handlebars.",
+        tags: ["node.js", "express.js", "handlebars", "css"],
+        demo: "https://weather-app-sushant.herokuapp.com/",
+        github: "https://github.com/sushant-78/weather-app",
+        image: "https://portfolio-projects-repo-gifs-bucket.s3.ap-south-1.amazonaws.com/portfolio+repo+gifs/weather-app.gif",
+    },
+    {
+        id: 5,
+        title: "TASK MANAGER APP",
+        about: "A task manager app where you can add, view, edit and delete your tasks. Made with node.js, express.js, mongoDB and mongoose.",
+        tags: ["node.js", "express.js", "mongoDB", "mongoose"],
+
+        github: "https://github.com/sushant-78/task-manager-app",
+        image: require("../images/task-manager-app-screenshot.png"),
+    },
+    {
+        id: 6,
+        title: "TEA STATION WEBSITE",
+        about: "A tea store website made with html, css and tad bit of javascript.",
+        tags: ["html", "css", "javascript"],
+        demo: "https://tea-station-html-css-first-project.netlify.app/",
+        github: "https://github.com/sushant-78/tea-station-website",
+        image: "https://portfolio-projects-repo-gifs-bucket.s3.ap-south-1.amazonaws.com/portfolio+repo+gifs/tea-store.gif",
+    },
+    {
+        id: 7,
+        title: "TOUR COMPANY WEBSITE",
+        about: "A tour company website made with html, css and tad bit of javascript.",
+        tags: ["html", "css", "javascript"],
+        demo: "https://backroads-tour-company-html-css-project.netlify.app/",
+        github: "https://github.com/sushant-78/backroads-tour-company",
+        image: "https://portfolio-projects-repo-gifs-bucket.s3.ap-south-1.amazonaws.com/portfolio+repo+gifs/tour-company.gif",
+    },
+];
+
+export default projects;
