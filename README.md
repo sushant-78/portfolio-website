@@ -14,6 +14,7 @@ Install and run portfolio website with npm, go to the application' folder and ru
 ```
     
 ## Demo
+![portfolio-website](https://user-images.githubusercontent.com/30661399/149971420-5d21aa8d-c61d-4288-bc64-87034e31dc54.gif)
 
 https://portfolio-projects-repo-gifs-bucket.s3.ap-south-1.amazonaws.com/portfolio+repo+gifs/portfolio-website.gif
 ## License
